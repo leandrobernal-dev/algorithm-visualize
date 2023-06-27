@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Sorting Algorithms",
+        "link": "/sort",
+        "types": [
+            {
+                "name": "Bubble Sort",
+                "type": "bubble-sort"
+            },
+            {
+                "name": "Selection Sort",
+                "type": "selection-sort"
+            },
+            {
+                "name": "Insertion Sort",
+                "type": "insertion-sort"
+            },
+            {
+                "name": "Merge Sort",
+                "type": "merge-sort"
+            },
+            {
+                "name": "Quick Sort",
+                "type": "quick-sort"
+            }
+        ]
+    },
+    {
+        "title": "Pathfinding Algorithms",
+        "link": "/pathfinding",
+        "types": [
+            {
+                "name": "Dijkstra's Algorithm",
+                "type": "dijkstra_s"
+            },
+            {
+                "name": "A* Algorithm",
+                "type": "a_"
+            },
+            {
+                "name": "Breadth-First Search",
+                "type": "bfs"
+            },
+            {
+                "name": "Depth-First Search",
+                "type": "dfs"
+            }
+        ]
+    },
+    {
+        "title": "Graph Algorithms",
+        "link": "/graphs",
+        "types": [
+            {
+                "name": "Prim's Algorithm (Minimum Spanning Tree)",
+                "type": "prim_s"
+            }
+        ]
+    },
+    {
+        "title": "Search Algorithms",
+        "link": "/search",
+        "types": [
+            {
+                "name": "Linear Search",
+                "type": "linear"
+            },
+            {
+                "name": "Binary Search",
+                "type": "binary"
+            }
+        ]
+    }
+]

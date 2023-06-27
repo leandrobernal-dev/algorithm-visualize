@@ -1,0 +1,35 @@
+export default function AlgorithmsLayout({ children }) {
+    return (
+        <div>
+            <div>
+                <input
+                    type="radio"
+                    name="sorting-algorithm-option"
+                    id="bubble-sort-option"
+                    defaultChecked={true}
+                />
+                <input
+                    type="radio"
+                    name="sorting-algorithm-option"
+                    id="selection-sort-option"
+                />
+                <input
+                    type="radio"
+                    name="sorting-algorithm-option"
+                    id="insertion-sort-option"
+                />
+                <input
+                    type="radio"
+                    name="sorting-algorithm-option"
+                    id="merge-sort-option"
+                />
+                <input
+                    type="radio"
+                    name="sorting-algorithm-option"
+                    id="quick-sort-option"
+                />
+            </div>
+            {children}
+        </div>
+    );
+}
